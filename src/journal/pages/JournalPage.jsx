@@ -1,12 +1,13 @@
 import { Typography } from "@mui/material";
 // import EmailIcon from '@mui/icons-material/Email';
+import { JournalLayout } from "../layout/JournalLayout";
 
 export const JournalPage = () => {
     return (
-        <div>
+        <JournalLayout>
             {/* COM ISSO JA PODEMOS USAR NOSSO MATERIAL UI E SEUS COMPONENTES COMO O TYPOGRAPHY */}
-            <Typography variant="h1">JournalPage</Typography>
+            <Typography>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, fuga! Autem consequuntur tempora ea. Velit beatae magni ipsa repellendus, veritatis a id provident iste debitis saepe adipisci eligendi? Repellat, molestiae.</Typography>
             {/* <EmailIcon /> */}
-        </div>
+        </JournalLayout>
     )
 }
